@@ -1,0 +1,209 @@
+<style>
+ *{
+	margin: 0;
+	padding: 0;
+	font-family: Times New Roman, serif;
+	
+}
+body{
+    background-color: lightgrey;
+}
+.navbar{
+	width: 100%;
+	margin: auto;
+	padding: 35px 0;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+    background-color: black;
+   
+}
+.logo{
+    margin-left: 35px;
+	width: 200px;
+	cursor: pointer;
+}
+.navbar ul li{
+	list-style: none;
+	display: inline-block;
+	margin-right: 45px;
+	position: relative;
+    color: white;
+}
+.navbar ul li a{
+	text-decoration: none;
+	color:#fff;
+	text-transform: uppercase;
+}
+.navbar ul li::after{
+	content: '';
+	height: 3px;
+	width: 0%;
+	background: #009688;
+	position: absolute;
+	left: 0;
+	Bottom: -10px;
+	transition: 0.5s;
+}
+.navbar ul li:hover{
+	transform: scale(1.4);
+}
+
+ </style>
+ 
+ 
+ 
+  <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Webpage Title</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+        }
+
+        #logo {
+            position: absolute;
+            top: 10px;
+            left: 10px;
+            width: 230px; 
+            height: auto; 
+        }
+    </style>
+
+
+
+<style>
+css:
+
+footer{
+    background-color: floralwhite;
+    height: auto;
+    width: 98.9vw;
+    font-family: "Open Sans";
+    padding-top: 40px;
+    color: #333;
+}
+.footer-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+.footer-content h4{
+    font-size: 24px;
+    font-weight: 400;
+    text-transform: capitalize;
+    line-height: 3rem;
+}
+.footer-content li{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0 3rem 0;
+}
+.footer-content li{
+    margin: 0 10px;
+    float: left;
+}
+.footer-content a{
+    text-decoration: none;
+}
+.footer-bottom{
+    background: floralwhite;
+    width: 98.9vw;
+    padding: 20px 0;
+    text-align: center;
+}
+.footer-bottom p{
+    font-size: 14px;
+    word-spacing: 8px;
+    text-transform: capitalize;
+}
+.footer-bottom span{
+    text-transform: uppercase;
+    opacity: .6;
+    font-weight: 200;
+}
+</style>
+
+
+<head>
+
+<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Product and Services</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+    }
+
+    .title-container {
+      background-color: black;
+      color: white;
+      font-family: 'Times New Roman', Times, serif;
+      text-align: center;
+      padding: 20px;
+    }
+  </style>
+
+<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Persona Picture</title>
+    <style>
+        body {
+            font-family: 'Times New Roman', Times, serif;
+            text-align: center;
+        }
+
+        #slider-container {
+            position: relative;
+        }
+
+        #text-overlay {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            max-width: 80%;
+            background-color: rgba(255, 255, 255, 0.8); 
+            padding: 20px;
+            border-radius: 10px;
+        }
+
+        #text-overlay p {
+            font-size: 18px; 
+            line-height: 1.5;
+            margin: 0;
+        }
+    </style>
+
+
+
+<meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <style>
+    table {
+      border-collapse: collapse;
+      width: 100%;
+    }
+    table, th, td {
+      border: 1px solid #ddd;
+    }
+    th, td {
+      padding: 8px;
+      text-align: center;
+    }
+    img {
+      max-width: 100%;
+      height: auto;
+    }
+  </style>
